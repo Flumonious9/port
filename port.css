@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Arvo-Bold;
+    src: url(Arvo-Bold.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -6,14 +11,28 @@
 body{
     background-color: #000000
 }
-.main{
-    text-align: center;
+
+.main img{
+    width: 100%;
+    height: 150px;
+    position:relative
+}
+.header{
+    font-family: Arvo-Bold;
+    transform: translate(375px,-125px);
     font-size: 80px;
     color: azure;
+    position: absolute
     
 }
 
+.intro{
+    margin-left: 900px;
+    color: azure;
+}
+
 .text{
+    margin-left: 50px;
     font-size: 20px;
     color: azure;
     
